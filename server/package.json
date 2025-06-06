@@ -1,0 +1,59 @@
+{
+  "name": "crisispredict-backend",
+  "version": "1.0.0",
+  "description": "AI-powered geopolitical risk intelligence backend - Targeting $175K+ in hackathon prizes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build complete - Ready for Netlify deployment ($25K prize)'",
+    "test": "jest",
+    "deploy": "echo 'Deploying to Netlify for Deploy Challenge prize'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "ws": "^8.14.2",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.2",
+    "openai": "^4.20.1",
+    "stripe": "^14.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^8.0.3",
+    "redis": "^4.6.10",
+    "nodemailer": "^6.9.7",
+    "sentiment": "^5.0.2",
+    "natural": "^6.8.0",
+    "compromise": "^14.10.0",
+    "socket.io": "^4.7.4",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "hackathon_targets": {
+    "challenger_prizes": {
+      "revenuecat_mobile": "$25K - Mobile SDK and Paywall Builder integration",
+      "entri_domains": "$25K - IONOS Domain Name and custom publishing",
+      "algorand_blockchain": "$25K - Trustless payments and verifiable data",
+      "tavus_video": "$25K - Real-time AI video agents",
+      "elevenlabs_voice": "$25K - Conversational voice AI",
+      "reddit_viral": "$25K - Wacky viral games and content",
+      "netlify_deploy": "$25K - Full-stack deployment"
+    },
+    "global_prizes": {
+      "grand_prize": "Most exceptional project across all criteria",
+      "future_unicorn": "Billion-dollar startup potential",
+      "most_likely_funded": "VC-ready architecture and business model",
+      "creative_ai": "Novel and innovative AI applications",
+      "most_viral": "Shareable, buzzworthy features",
+      "uniquely_useful": "Solves real problems simply"
+    },
+    "total_potential": "$175K+ in challenger prizes + global prize pool"
+  }
+}
